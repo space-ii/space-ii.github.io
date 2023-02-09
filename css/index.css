@@ -152,7 +152,7 @@ body {
 
 /* about-me */
 .about-me__container {
-    background-image: url("../img/about-me.JPG");
+    background-image: url("../img/about-me.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center right;

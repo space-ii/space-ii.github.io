@@ -1,0 +1,224 @@
+html {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: sans-serif;
+    background-image: url("../img/background-image-2.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    height: 200px;
+    max-width: 1000px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 2px 4px 8px 1px burlywood;
+    transition: all 0.5s ease-in-out;
+}
+
+.about-me__container:hover,
+.hobbies__container:hover,
+.education__container:hover,
+.career__container:hover {
+    transform: translate(20px, 0);
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.link:hover {
+    color: white;
+}
+
+.link:active {
+    color: rgb(228, 160, 70);
+}
+
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header,
+.about-me,
+.hobbies,
+.education,
+.career  {
+    padding-bottom: 20px;
+}
+
+.about-me__title,
+.hobbies__title,
+.education__title,
+.career__title,
+.footer__title {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.about-me__descr,
+.hobbies__descr,
+.education__descr,
+.career__descr,
+.footer__contacts {
+    margin: 0;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.about-me__title,
+.hobbies__title,
+.education__title,
+.career__title,
+.footer__title {
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* header */
+.header__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: max-content;
+    background-color: rgb(139, 158, 161);
+}
+
+.header__avatar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__photo {
+    width: 80px;
+    height: 80px;
+    margin: 6px 0;
+    /* background-color: gray; */
+    border-radius: 50%;
+    border: 2px solid rgb(253, 253, 253);
+    background-image: url("../img/avatar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header__name {
+    padding-left: 10px;
+    width: 100px;
+}
+
+
+.header__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__item {
+    padding-right: 70px;
+}
+
+.header__link {
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(216, 185, 127);
+}
+
+.header__content {
+    color: white;
+}
+
+/* about-me */
+.about-me__container {
+    background-image: url("../img/about-me.JPG");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center right;
+
+}
+
+.about-me__content {
+    width: 700px;
+}
+
+/* hobbies */
+.hobbies__container {
+    background-image: url("../img/hobbies.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center left;
+}
+
+.hobbies__content {
+    width: 700px;
+}
+
+.hobbies__content {
+    padding-left: 300px;
+}
+
+/* education */
+.education__container {
+    background-image: url("../img/education.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center right;
+
+}
+
+.education__content {
+    width: 700px;
+}
+
+/* career */
+.career__container {
+    background-image: url("../img/career.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center left;
+}
+
+.career__content {
+    width: 700px;
+}
+
+.career__content {
+    padding-left: 300px;
+}
+
+/* contacts */
+.footer__container {
+    height: max-content;
+    background-color: rgb(139, 158, 161);
+    box-shadow: 2px 4px 8px 1px burlywood;
+}
+
+.footer__title {
+    color: rgb(216, 185, 127);
+}
+
+.footer_list {
+    color: white;
+}
